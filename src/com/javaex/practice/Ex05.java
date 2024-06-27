@@ -1,13 +1,18 @@
 package com.javaex.practice;
 
-import java.util.Scanner;
-
 public class Ex05 {
 
 	public static void main(String[] args) {
-		int age;
+		int i =1;
+		boolean flag = true;
 		
-		Scanner sc = new Scanner(System.in);
+		while(flag) {
+			if(i>=5) {
+				flag = false;
+			}
+			System.out.println(i);
+			i +=1;
+		}
 		
 	}
 

@@ -3,9 +3,12 @@ package com.javaex.practice;
 public class Ex03 {
 
 	public static void main(String[] args) {
-		int age = 15;
-		if (age > 0 && age < 18) {
-			System.out.println("청소년 입니다.");
+		int x,y;
+		for(x=0; x<4; x++) {
+			for(y=2; y>0; y--) {
+				System.out.println("*");
+			}
+			System.out.println("");
 		}
 	}
 
